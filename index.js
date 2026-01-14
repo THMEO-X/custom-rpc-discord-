@@ -41,7 +41,7 @@ client.on("ready", () => {
   const rp = new Discord.RichPresence(client)
     .setApplicationId(APPLICATION_ID)
     .setType("Competing")
-    .setName("Học là trính")
+    .setName("Học là chính")
     .setDetails("sớm thôi")
     .setStartTimestamp(Date.now())
 
@@ -58,6 +58,7 @@ client.on("ready", () => {
   client.user.setPresence({
     
     activities: [rp]
+    
   });
 
   console.log("Rich Presence started (2 Buttons max)");
