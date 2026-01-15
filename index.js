@@ -23,7 +23,7 @@ const LARGE_IMAGE_URL =
 
 
 const SMALL_IMAGE_URL =
-  "https://cdn.discordapp.com/attachments/1170739270093381714/1295375477309046837/d0342b82348f01949c2e63e0a4a42169.gif";
+  "https://cdn.discordapp.com/attachments/1170739270093381714/1285227952707076187/image0.gif";
 
 
 const BUTTON_1_LABEL = "Github";
