@@ -26,8 +26,8 @@ const SMALL_IMAGE_URL =
   "https://cdn.discordapp.com/attachments/1170739270093381714/1295375477309046837/d0342b82348f01949c2e63e0a4a42169.gif";
 
 
-const BUTTON_1_LABEL = "Replit";
-const BUTTON_1_URL   = "https://replit.com/";
+const BUTTON_1_LABEL = "Github";
+const BUTTON_1_URL   = "https://github.com/THMEO-X/custom-rpc-discord-.git";
 
 const BUTTON_2_LABEL = "Discord Sever";
 const BUTTON_2_URL   = "https://discord.gg/VgqRgUgKzM";
@@ -42,7 +42,7 @@ client.on("ready", () => {
     .setApplicationId(APPLICATION_ID)
     .setType("Competing")
     .setName("Học là chính")
-    .setDetails("sớm thôi")
+    .setDetails("sớm thôi, một hành trình mới trong 5 tháng")
     .setStartTimestamp(Date.now())
 
 
