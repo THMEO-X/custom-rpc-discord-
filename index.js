@@ -56,7 +56,7 @@ client.on("ready", () => {
     .addButton(BUTTON_2_LABEL, BUTTON_2_URL);
 
   client.user.setPresence({
-    status: "invisible",
+    
     activities: [rp]
     
   });
